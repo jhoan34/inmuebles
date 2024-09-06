@@ -1,0 +1,218 @@
+.padre-dashboardadmin {
+    position: absolute;
+    top: 20vh;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #f0f0f0;
+    gap: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.menu-opciones {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #1c1c1c;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.menu-opciones button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #6200ea;
+    color: #f0f0f0;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.menu-opciones button:hover {
+    cursor: pointer;
+    background-color: #3700b3;
+}
+
+.render-product {
+    height: 92%;
+    background-color: #1a1a1a;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-dashboardadmin {
+    height: 95%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.form-dashboardadmin div {
+    position: relative;
+    margin-left: 10%;
+    width: 60%;
+}
+
+
+.form-dashboardadmin div label {
+    font-size: 1rem;
+    color: #f0f0f0;
+}
+
+.form-dashboardadmin div input, .form-dashboardadmin div textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background-color: #2c2c2c;
+    color: #f0f0f0;
+}
+
+.form-dashboardadmin div input:focus, .form-dashboardadmin div textarea:focus {
+    outline: none;
+    border-color: #6200ea;
+}
+
+.btn-submit {    
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #6200ea;
+    color: #f0f0f0;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.form-dashboardadmin div button:hover {
+    cursor: pointer;
+    background-color: #3700b3;
+}
+
+/* Estilos para la información de cuenta */
+.form-info-cuenta {
+    height: 90%;
+    background-color: #1a1a1a;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-info-cuenta h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form-info-cuenta form {
+    padding: 1rem;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 1rem;
+}
+
+.form-info-cuenta form div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-info-cuenta .form-label {
+    font-size: 1rem;
+}
+
+.form-info-cuenta .form-input {
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background-color: #2c2c2c;
+    color: #f0f0f0;
+}
+
+.form-info-cuenta .form-input:focus {
+    outline: none;
+    border-color: #6200ea;
+}
+
+.form-info-cuenta .form-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #6200ea;
+    color: #f0f0f0;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.form-info-cuenta .form-button:hover {
+    cursor: pointer;
+    background-color: #3700b3;
+}
+
+.info-cuenta-container {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #f0f0f0;
+}
+
+.info-cuenta-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.info-cuenta-info div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.info-cuenta-info h3 {
+    margin: 0;
+    color: #6200ea;
+}
+
+.info-cuenta-info p {
+    margin: 0;
+}
+
+.info-cuenta-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-cuenta-content button{
+    background-color: #3700b3;
+    width: 20%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 8px;
+    color: #f0f0f0;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-left: 39%;
+}
+
+.info-cuenta-info{
+    display:  grid;
+    grid-template-columns: repeat(2, 20%);
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.info-cuenta-info div{
+    margin-left: 30%;
+}
